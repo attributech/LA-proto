@@ -1,0 +1,139 @@
+$color--hover: #808080;
+
+%large-font {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0.13rem;
+}
+
+%list-style {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 1vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+h1 {
+  @extend %large-font;
+  font-size: 2rem;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+nav, %nav {
+  position: fixed;
+  ul {
+    @extend %list-style;
+    li {
+      a {
+        @extend %large-font;
+        &:hover {
+          color: $color--hover;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  @extend %large-font;
+  ul { @extend %list-style }
+}
+
+
+.hit-area {
+  $stoke: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  border: $stoke solid transparent;
+
+  > * {
+    display: none;
+  }
+  
+  &--debug {
+    $hover: 5px;
+    border: $stoke solid skyblue;
+    background-color: transparentize($color: skyblue, $amount: 0.5);
+    
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0;
+      border: 0;
+      color: black;
+      width: 1.5em;
+      height: 1.5em;
+      border-radius: 50%;
+      background-color: lightblue;
+      vertical-align: middle;
+      
+      box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+      transform: translate3d(0,0,0);
+      transition: transform 200ms, box-shadow 200ms;
+      &:hover {
+        transform: translate3d(0,-$hover,0);
+        box-shadow: 1px $hover 20px rgba(0,0,0,0.5);
+      }
+      &:active {
+        transform: initial;
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+      }
+      &:focus { outline: none }
+    }
+  }
+  
+  &--edit {
+    z-index: 1;
+    border: $stoke solid coral;
+    background-color: transparentize($color: coral, $amount: 0.5);
+    
+    button {
+      background-color: coral;
+    }
+    
+    &:before, &:after {
+      content: '';
+      pointer-events: none;
+      display: block;
+      position: absolute;
+      left: -$stoke;
+      border: $stoke dashed coral;
+      height: 1000vw;
+      width: 100%;
+    }
+
+    &:before {
+      height: 100%;
+      left: -500vw;
+      width: 1000vw;
+    }
+  }
+}

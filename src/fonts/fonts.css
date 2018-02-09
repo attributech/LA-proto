@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Spectra';
+  src: url('./GT-Sectra-Display-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spectra';
+  src: url('./GT-Sectra-Display-Regular-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+*, a {
+  font-family: "Spectra";
+}
