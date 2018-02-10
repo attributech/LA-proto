@@ -14,7 +14,7 @@ export default class HitArea extends React.Component {
       debug: false,
       edit: false,
       pos: this.props.pos,
-      copied: false,
+      settingPosition: true,
     }
   }
 
@@ -25,11 +25,18 @@ export default class HitArea extends React.Component {
       copy(`[${pos.join(', ')}]`);
     }
   }
+
+  handleKeyUp = event => {
+    if (event.key === 'Meta') {
+      this.setState({ settingPosition: true })
+      console.log('0HAI', event.key)
+    }
+  }
   
-  handleKeys = event => {
+  handleKeyDown = event => {
     const [l, t, w, h] = this.state.pos;
     
-    if (event.key === '<') {
+    if (event.key === 'd') {
       this.setState({ debug: !this.state.debug })
     }
     
@@ -42,49 +49,84 @@ export default class HitArea extends React.Component {
     if (parseInt(event.key) === this.props.id) {
       this.setState({ edit: !this.state.edit })
     }
-
+    
     if (!this.state.edit) return
     event.preventDefault();
+
+    if (event.key === 'Meta') {
+      this.setState({ settingPosition: false })
+      console.log('0HAI', event.key)
+    }
     
+    if (meta && event.key === 'r') {
+      location.reload()
+    }
+
     /* POSITION THE BOX */
     if (!meta && event.key === 'ArrowRight') {
-      this.setState({ pos: [round(l + delta), t, w, h] })
+      this.setState({
+        pos: [round(l + delta), t, w, h],
+        settingPosition: true
+      })
     }
     if (!meta && event.key === 'ArrowLeft') {
-      this.setState({ pos: [round(l - delta), t, w, h] })
+      this.setState({
+        pos: [round(l - delta), t, w, h],
+        settingPosition: true
+      })
     }
     if (!meta && event.key === 'ArrowUp') {
-      this.setState({ pos: [l, round(t - delta), w, h] })
+      this.setState({
+        pos: [l, round(t - delta), w, h],
+        settingPosition: true
+      })
     }
     if (!meta && event.key === 'ArrowDown') {
-      this.setState({ pos: [l, round(t + delta), w, h] })
+      this.setState({
+        pos: [l, round(t + delta), w, h],
+        settingPosition: true
+      })
     }
     
     /* SIZE THE BOX */
     if (meta && event.key === 'ArrowRight') {
-      this.setState({ pos: [l, t, round(w + delta), h] })
+      this.setState({
+        pos: [l, t, round(w + delta), h],
+        settingPosition: false
+      })
     }
     if (meta && event.key === 'ArrowLeft') {
-      this.setState({ pos: [l, t, round(w - delta), h] })
+      this.setState({
+        pos: [l, t, round(w - delta), h],
+        settingPosition: false
+      })
     }
     if (meta && event.key === 'ArrowUp') {
-      this.setState({ pos: [l, t, w, round(h - delta)] })
+      this.setState({
+        pos: [l, t, w, round(h - delta)],
+        settingPosition: false
+      })
     }
     if (meta && event.key === 'ArrowDown') {
-      this.setState({ pos: [l, t, w, round(h + delta)] })
+      this.setState({
+        pos: [l, t, w, round(h + delta)],
+        settingPosition: false
+      })
     }
   }
 
   componentDidMount() {
-    window.addEventListener('keydown', this.handleKeys)
+    window.addEventListener('keydown', this.handleKeyDown)
+    window.addEventListener('keyup', this.handleKeyUp)
   }
   
   componentWillUnmount() {
-    window.removeEventListener('keydown', this.handleKeys)
+    window.removeEventListener('keydown', this.handleKeyDown)
+    window.addEventListener('keyup', this.handleKeyUp)
   }
 
   render() {
-    const { debug, edit, copied, pos } = this.state;
+    const { debug, edit, copied, pos, settingPosition } = this.state;
     const { id, fix, url } = this.props;
     const [l, t, w, h] = pos;
 
@@ -101,13 +143,15 @@ export default class HitArea extends React.Component {
         className={[
           'hit-area',
           debug ? ' hit-area--debug' : '',
-          debug && edit ? ' hit-area--edit' : ''
+          debug && edit ? ' hit-area--edit' : '',
+          debug && edit && settingPosition ? ' hit-area--setting-position' : ''
         ].join('')}
         style={{ ...style }}
         to={url}
         onClick={this.handelClick}
       >
-        <button style={{fontSize: h * 5}}>{id}</button>
+        <span>{id}</span>
+        <button>copy</button>
       </Link>
     )
   }

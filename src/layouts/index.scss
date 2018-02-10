@@ -64,13 +64,11 @@ footer {
 
 
 .hit-area {
-  $stoke: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-decoration: none;
-  border: $stoke solid transparent;
+  $stroke: 1px;
+  $edit-dot--size: 10px;
+  
+  position: relative;
+  border: $stroke solid transparent;
 
   > * {
     display: none;
@@ -78,33 +76,29 @@ footer {
   
   &--debug {
     $hover: 5px;
-    border: $stoke solid skyblue;
+    border: $stroke solid skyblue;
     background-color: transparentize($color: skyblue, $amount: 0.5);
     
+    > span {
+      display: inline-block;
+      padding: 0 10px;
+      background: #000;
+      color: white;
+    }
+    
     button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      padding: 0;
-      border: 0;
-      color: black;
-      width: 1.5em;
-      height: 1.5em;
-      border-radius: 50%;
-      background-color: lightblue;
-      vertical-align: middle;
-      
-      box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-      transform: translate3d(0,0,0);
-      transition: transform 200ms, box-shadow 200ms;
+      display: block;
+      appearance: none;
+      background-color: black;
+      color: white;
+      border: none;
+      margin-top: 1px;
+
       &:hover {
-        transform: translate3d(0,-$hover,0);
-        box-shadow: 1px $hover 20px rgba(0,0,0,0.5);
+        background-color: coral;
       }
       &:active {
-        transform: initial;
-        box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+        background-color: black;
       }
       &:focus { outline: none }
     }
@@ -112,28 +106,46 @@ footer {
   
   &--edit {
     z-index: 1;
-    border: $stoke solid coral;
+    border: $stroke solid coral;
     background-color: transparentize($color: coral, $amount: 0.5);
-    
-    button {
-      background-color: coral;
-    }
     
     &:before, &:after {
       content: '';
       pointer-events: none;
       display: block;
       position: absolute;
-      left: -$stoke;
-      border: $stoke dashed coral;
+      left: -$stroke;
+      border: $stroke dashed coral;
       height: 1000vw;
+      top: -500vw;
       width: 100%;
     }
 
     &:before {
       height: 100%;
+      top: -$stroke;
       left: -500vw;
       width: 1000vw;
     }
+    
+    span {
+      &:after {
+        content: '';
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: $edit-dot--size;
+        height: $edit-dot--size;
+        right: -0.5*$edit-dot--size;
+        bottom: -0.5*$edit-dot--size;
+        border-radius: 50%;
+        border: 1px solid black;
+      }
+    }
+  }
+  
+  &--setting-position span:after{
+    left: -0.5*$edit-dot--size;
+    top: -0.5*$edit-dot--size;
   }
 }

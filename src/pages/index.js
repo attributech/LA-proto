@@ -6,4 +6,3 @@ import image from '../images/campaign.png'
 export default () => (
   <Page image={image} />
 )
-
