@@ -8,10 +8,10 @@ export default () => (
         <Link to="/">campaign</Link>
       </li>
       <li>
-        <Link to="/collection">collections</Link>
+        <Link to="/collection/">collections</Link>
       </li>
       <li>
-        <Link to="/about/story">about</Link>
+        <Link to="/about/story/">about</Link>
       </li>
     </ul>
   </nav>
