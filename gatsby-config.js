@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/LA-proto",
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
