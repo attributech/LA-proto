@@ -13,4 +13,7 @@ $ yarn
 $ yarn develop
 ```
 ### deploy
-A githook will automatically run `yarn deploy`, which will build all pages and push to the gh-pages branch
+```sh
+$ git push origin master
+$ yarn deploy
+```
