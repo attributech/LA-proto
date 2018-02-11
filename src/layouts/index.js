@@ -13,7 +13,7 @@ import '../fonts/fonts.css'
 const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="LA proto"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -28,3 +28,4 @@ TemplateWrapper.propTypes = {
 }
 
 export default TemplateWrapper
+  
