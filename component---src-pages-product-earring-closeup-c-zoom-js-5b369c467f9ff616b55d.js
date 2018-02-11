@@ -1,0 +1,2 @@
+webpackJsonp([0x9931635d319],{484:function(e,t,o){e.exports=o.p+"static/product--earring-c--zoom.d65e5bf8.jpg"},204:function(e,t,o){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=o(1),n=r(u),a=o(8),d=r(a),i=o(484),c=r(i),f=[{id:1,key:1,pos:[81.7,0,18.2,6.9],url:"/product/earring"}];t.default=function(){return n.default.createElement(d.default,{image:c.default,hitAreaList:f,noHeader:!0,noNav:!0,noFooter:!0})},e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-product-earring-closeup-c-zoom-js-5b369c467f9ff616b55d.js.map
