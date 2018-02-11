@@ -10,6 +10,7 @@ export default () => (
       image={image}
       noHeader
       noNav
+      navCompact
       noFooter
     />
     <Header campaign/>

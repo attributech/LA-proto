@@ -4,14 +4,16 @@ import Link from 'gatsby-link'
 import Header from '../Header'
 import Footer from '../Footer'
 import Nav from '../Nav'
+import NavCompact from '../NavCompact'
 
 import Background from '../Background'
 import HitArea from '../HitArea'
 
-export default ({ image, hitAreaList, noHeader, noNav, noFooter }) => (
+export default ({ image, hitAreaList, noHeader, noNav, noFooter, navCompact }) => (
   <div>
   {!noHeader && <Header />}
   {!noNav && <Nav />}
+  {navCompact && <NavCompact />}
   <Background src={image} />
   {hitAreaList && hitAreaList.map(x => <HitArea key={x.id} {...x} />)}
   

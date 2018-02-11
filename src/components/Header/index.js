@@ -12,7 +12,7 @@ const Header = ({ campaign }) => {
 
   return (
     <h1 style={style}>
-      <Link to={ campaign ? "/collection" : "/" }>Leni Adam</Link>
+      <Link to="/">Leni Adam</Link>
     </h1>
   )
 }
