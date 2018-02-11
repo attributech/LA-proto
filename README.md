@@ -1,7 +1,7 @@
 # gatsby-prototype for Leni Adam
 
 ### source code for prototype
-https://attributech.github.io/LA-proto/about/story
+https://attributech.github.io/LA-proto
 
 ### install locally
 ```sh
