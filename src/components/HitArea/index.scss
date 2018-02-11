@@ -1,0 +1,103 @@
+.hit-area {
+    $stroke: 1px;
+    $edit-dot--size: 20px;
+    
+    position: relative;
+    border: $stroke solid transparent;
+  
+    > * {
+      display: none;
+    }
+    
+    &--debug {
+      $hover: 5px;
+      border: $stroke solid skyblue;
+      background-color: transparentize($color: skyblue, $amount: 0.5);
+      
+      > span {
+        display: inline-block;
+        padding: 0 10px;
+        background: #000;
+        color: white;
+      }
+      
+      button {
+        display: block;
+        appearance: none;
+        background-color: black;
+        color: white;
+        border: none;
+        margin-top: 1px;
+  
+        &:hover {
+          background-color: coral;
+        }
+        &:active {
+          background-color: black;
+        }
+        &:focus { outline: none }
+      }
+    }
+    
+    &--edit {
+      z-index: 1;
+      border: $stroke solid coral;
+      background-color: transparentize($color: coral, $amount: 0.5);
+      
+      &:before, &:after {
+        content: '';
+        pointer-events: none;
+        display: block;
+        position: absolute;
+        left: -$stroke;
+        border: $stroke dashed coral;
+        height: 1000vw;
+        top: -500vw;
+        width: 100%;
+      }
+  
+      &:before {
+        height: 100%;
+        top: -$stroke;
+        left: -500vw;
+        width: 1000vw;
+      }
+      
+      span {
+        &:after {
+          content: '';
+          box-sizing: border-box;
+          display: block;
+          position: absolute;
+          width: $edit-dot--size;
+          height: $edit-dot--size;
+          right: -0.5*$edit-dot--size - $stroke;
+          bottom: -0.5*$edit-dot--size - $stroke;
+          
+          $arrow-size: 20%;
+          background:
+            linear-gradient(
+                45deg,
+                coral $arrow-size,
+                transparent 0,
+                transparent 100% - $arrow-size,
+                coral 100% - $arrow-size
+                ),
+            linear-gradient(
+                135deg,
+                coral $arrow-size,
+                transparent 0,
+                transparent 100% - $arrow-size,
+                coral 100% - $arrow-size
+                );
+          z-index: 2;
+          transform: rotate(45deg);
+        }
+      }
+    }
+    
+    &--setting-position span:after{
+      left: -0.5*$edit-dot--size - $stroke;
+      top: -0.5*$edit-dot--size - $stroke;
+    }
+  }

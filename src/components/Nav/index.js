@@ -8,22 +8,21 @@ const Nav = () => (
         <Link to="/">campaign</Link>
       </li>
       <li>
-        <Link to="/collection--overview">collections</Link>
+        <Link to="/collection">collections</Link>
         <ul>
-          <li><Link to="/collection--overview">All Products</Link></li>
-          <li><Link to="/frieda">Frieda</Link></li>
-          <li><Link to="/elsa">Elsa</Link></li>
-          <li><Link to="/limited">Limited</Link></li>
-          <li><Link to="/special">Special</Link></li>
+          <li><Link to="/collection">All Products</Link></li>
+          <li><Link to="/collection/frieda">Frieda</Link></li>
+          <li><Link to="/collection/elsa">Elsa</Link></li>
+          <li><Link to="/collection/limited">Limited</Link></li>
+          <li><Link to="/collection/limited">Special</Link></li>
         </ul>
       </li>
       <li>
-        <Link to="/about">about</Link>
+        <Link to="/about/story">about</Link>
         <ul>
-          <li><Link to="/history">History</Link></li>
-          <li><Link to="/philosophy">Philosophy</Link></li>
-          <li><Link to="/gemstones">Gemstones</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/about/story">Story</Link></li>
+          <li><Link to="/about/gemstones">Gemstones</Link></li>
+          <li><Link to="/about/contact">Contact</Link></li>
         </ul>
       </li>
     </ul>

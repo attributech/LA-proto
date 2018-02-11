@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import copy from 'copy-to-clipboard';
+import copy from 'copy-to-clipboard'
+
+import './index.scss'
 
 const round = (num) => {
   return Number(Math.round(num + 'e2') + 'e-2');
@@ -127,7 +129,7 @@ export default class HitArea extends React.Component {
 
   render() {
     const { debug, edit, copied, pos, settingPosition } = this.state;
-    const { id, fix, url } = this.props;
+    const { id, fix, bottom, url } = this.props;
     const [l, t, w, h] = pos;
 
     const style = {
@@ -136,6 +138,11 @@ export default class HitArea extends React.Component {
       top: `${t}vw`,
       width: `${w}vw`,
       height: `${h}vw`,
+    }
+
+    if (bottom) {
+      style.top = 'auto'
+      style.bottom = `${t}vw`;
     }
 
     return (
