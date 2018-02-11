@@ -11,7 +11,6 @@ export default () => (
       noHeader
       noNav
       navCompact
-      noFooter
     />
     <Header campaign/>
   </div>
