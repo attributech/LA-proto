@@ -1,31 +1,25 @@
 import React from 'react'
 import Page from '../../components/Page'
 
-import image from '../../images/collection--overview.jpg'
+import image from '../../images/collection--overview--readmore.jpg'
 
 const hitAreaList = [
   {
     id: 1,
-    pos: [17.8, 23.5, 15.4, 20.3],
+    pos: [17.8, 38.7, 15.4, 20.3],
     url: "/product/chain",
     fix: false
   },
   {
     id: 2,
-    pos: [34.2, 23.5, 15.4, 20.3],
+    pos: [34.2, 38.7, 15.4, 20.3],
     url: "/product/chain",
     fix: false
   },
   {
     id: 3,
-    pos: [50.3, 23.5, 15.4, 20.3],
+    pos: [50.3, 38.7, 15.4, 20.3],
     url: "/product/earring",
-    fix: false
-  },
-  {
-    id: 4,
-    pos: [34.2, 20.4, 31.5, 3.3],
-    url: "/collection/read-more",
     fix: false
   }
 ]
