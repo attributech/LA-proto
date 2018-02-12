@@ -29,8 +29,8 @@
       "component---src-pages-index-js-df4053155aa6b25085dc.js.map"
     ],
     "component---src-pages-product-chain-index-js": [
-      "component---src-pages-product-chain-index-js-ea672980edd0f0d16da0.js",
-      "component---src-pages-product-chain-index-js-ea672980edd0f0d16da0.js.map"
+      "component---src-pages-product-chain-index-js-174a47d378408b3d3944.js",
+      "component---src-pages-product-chain-index-js-174a47d378408b3d3944.js.map"
     ],
     "path---collection": [
       "path---collection-a0e39f21c11f6a62c5ab.js",
@@ -41,8 +41,8 @@
       "path---product-earring-closeup-a-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-toc-js": [
-      "component---src-pages-about-toc-js-88f12893df0eafde9f24.js",
-      "component---src-pages-about-toc-js-88f12893df0eafde9f24.js.map"
+      "component---src-pages-about-toc-js-ac7d7ae38c7338dc1be1.js",
+      "component---src-pages-about-toc-js-ac7d7ae38c7338dc1be1.js.map"
     ],
     "component---src-pages-product-earring-closeup-a-zoom-js": [
       "component---src-pages-product-earring-closeup-a-zoom-js-9f16e9d420c66e58b64a.js",
@@ -57,8 +57,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-about-contact-js": [
-      "component---src-pages-about-contact-js-752ed8d74a537247850e.js",
-      "component---src-pages-about-contact-js-752ed8d74a537247850e.js.map"
+      "component---src-pages-about-contact-js-c3e183b227c2d37ad2b8.js",
+      "component---src-pages-about-contact-js-c3e183b227c2d37ad2b8.js.map"
     ],
     "path---collection-special": [
       "path---collection-special-a0e39f21c11f6a62c5ab.js",
@@ -73,32 +73,36 @@
       "path---product-earring-closeup-b-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-product-earring-index-js": [
-      "component---src-pages-product-earring-index-js-668086fdf7a0a136031a.js",
-      "component---src-pages-product-earring-index-js-668086fdf7a0a136031a.js.map"
+      "component---src-pages-product-earring-index-js-bba835c082f72e7f09af.js",
+      "component---src-pages-product-earring-index-js-bba835c082f72e7f09af.js.map"
     ],
     "component---src-pages-product-earring-closeup-b-js": [
       "component---src-pages-product-earring-closeup-b-js-10fb1e08766042d1840f.js",
       "component---src-pages-product-earring-closeup-b-js-10fb1e08766042d1840f.js.map"
     ],
     "component---src-pages-about-story-js": [
-      "component---src-pages-about-story-js-90186eacff1b22e7204c.js",
-      "component---src-pages-about-story-js-90186eacff1b22e7204c.js.map"
+      "component---src-pages-about-story-js-705d48c71220a7ee66ad.js",
+      "component---src-pages-about-story-js-705d48c71220a7ee66ad.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-4f1246053c6637c36b95.js",
       "component---src-layouts-index-js-4f1246053c6637c36b95.js.map"
     ],
     "component---src-pages-collection-index-js": [
-      "component---src-pages-collection-index-js-2fe5fbd36500678642d8.js",
-      "component---src-pages-collection-index-js-2fe5fbd36500678642d8.js.map"
+      "component---src-pages-collection-index-js-7aceadb8097434d1b006.js",
+      "component---src-pages-collection-index-js-7aceadb8097434d1b006.js.map"
     ],
     "component---src-pages-collection-frieda-js": [
-      "component---src-pages-collection-frieda-js-3715c68eb91167308375.js",
-      "component---src-pages-collection-frieda-js-3715c68eb91167308375.js.map"
+      "component---src-pages-collection-frieda-js-58454c5b035f7e0201f8.js",
+      "component---src-pages-collection-frieda-js-58454c5b035f7e0201f8.js.map"
     ],
     "component---src-pages-collection-elsa-js": [
-      "component---src-pages-collection-elsa-js-e4c0b2d85216f5aa69c4.js",
-      "component---src-pages-collection-elsa-js-e4c0b2d85216f5aa69c4.js.map"
+      "component---src-pages-collection-elsa-js-01c41903749d756cdb40.js",
+      "component---src-pages-collection-elsa-js-01c41903749d756cdb40.js.map"
+    ],
+    "path---collection-read-more": [
+      "path---collection-read-more-a0e39f21c11f6a62c5ab.js",
+      "path---collection-read-more-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -112,13 +116,17 @@
       "commons-a9be01615ae105ff4636.js",
       "commons-a9be01615ae105ff4636.js.map"
     ],
+    "component---src-pages-collection-read-more-js": [
+      "component---src-pages-collection-read-more-js-8606b3eeb2c496c304bf.js",
+      "component---src-pages-collection-read-more-js-8606b3eeb2c496c304bf.js.map"
+    ],
     "component---src-pages-about-gemstones-js": [
-      "component---src-pages-about-gemstones-js-5bf8251dc343cdd64a8e.js",
-      "component---src-pages-about-gemstones-js-5bf8251dc343cdd64a8e.js.map"
+      "component---src-pages-about-gemstones-js-422c8d75a2a40f4dba5b.js",
+      "component---src-pages-about-gemstones-js-422c8d75a2a40f4dba5b.js.map"
     ],
     "component---src-pages-collection-limited-js": [
-      "component---src-pages-collection-limited-js-1844e4e180327314b107.js",
-      "component---src-pages-collection-limited-js-1844e4e180327314b107.js.map"
+      "component---src-pages-collection-limited-js-eeb2ba7975327999015b.js",
+      "component---src-pages-collection-limited-js-eeb2ba7975327999015b.js.map"
     ],
     "path---product-earring-closeup-c": [
       "path---product-earring-closeup-c-a0e39f21c11f6a62c5ab.js",
@@ -133,8 +141,8 @@
       "component---src-pages-product-earring-closeup-a-js-c4bd6ca64fad0fa8bbaf.js.map"
     ],
     "component---src-pages-about-gemstones-b-js": [
-      "component---src-pages-about-gemstones-b-js-76e5d862051df5deb896.js",
-      "component---src-pages-about-gemstones-b-js-76e5d862051df5deb896.js.map"
+      "component---src-pages-about-gemstones-b-js-96581770d65d4a5bc48a.js",
+      "component---src-pages-about-gemstones-b-js-96581770d65d4a5bc48a.js.map"
     ],
     "path---about-story": [
       "path---about-story-a0e39f21c11f6a62c5ab.js",
@@ -145,9 +153,9 @@
       "path---about-contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-094d7dcc2652eb53d0bb.js",
+      "app-14ebb13b67d97529c770.js",
       "build-js-styles.css",
-      "app-094d7dcc2652eb53d0bb.js.map",
+      "app-14ebb13b67d97529c770.js.map",
       "build-js-styles.css.map"
     ],
     "path---product-chain": [
@@ -159,8 +167,8 @@
       "path---about-gemstones-b-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-collection-special-js": [
-      "component---src-pages-collection-special-js-2fe5fbd36500678642d8.js",
-      "component---src-pages-collection-special-js-2fe5fbd36500678642d8.js.map"
+      "component---src-pages-collection-special-js-43f77761a17bdb36feb9.js",
+      "component---src-pages-collection-special-js-43f77761a17bdb36feb9.js.map"
     ]
   }
 }

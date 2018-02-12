@@ -1,0 +1,2 @@
+webpackJsonp([0xa85852f08704],{478:function(e,t,a){e.exports=a.p+"static/about--gemstones-a.afabfcba.jpg"},193:function(e,t,a){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var f=a(1),n=u(f),o=a(8),s=u(o),i=a(478),r=u(i),l=[{id:1,key:1,pos:[33.9,5.2,32.4,34.3],url:"/about/gemstones-b",fix:!1}];t.default=function(){return n.default.createElement(s.default,{image:r.default,hitAreaList:l})},e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-about-gemstones-js-422c8d75a2a40f4dba5b.js.map

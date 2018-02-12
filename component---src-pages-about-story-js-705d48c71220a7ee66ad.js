@@ -1,0 +1,2 @@
+webpackJsonp([93991964316049],{480:function(t,e,u){t.exports=u.p+"static/about--story.41dd5b94.jpg"},194:function(t,e,u){"use strict";function a(t){return t&&t.__esModule?t:{default:t}}e.__esModule=!0;var n=u(1),o=a(n),d=u(8),f=a(d),r=u(480),l=a(r),s=function(){return o.default.createElement(f.default,{image:l.default})};e.default=s,t.exports=e.default}});
+//# sourceMappingURL=component---src-pages-about-story-js-705d48c71220a7ee66ad.js.map

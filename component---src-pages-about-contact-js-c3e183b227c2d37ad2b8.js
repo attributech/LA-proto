@@ -1,0 +1,2 @@
+webpackJsonp([65831683958654],{477:function(e,t,u){e.exports=u.p+"static/about--contact.42de4ec1.jpg"},191:function(e,t,u){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(1),c=a(n),o=u(8),f=a(o),d=u(477),l=a(d),r=function(){return c.default.createElement(f.default,{image:l.default})};t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-about-contact-js-c3e183b227c2d37ad2b8.js.map
