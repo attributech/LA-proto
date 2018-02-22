@@ -28,10 +28,6 @@
       "component---src-pages-index-js-df4053155aa6b25085dc.js",
       "component---src-pages-index-js-df4053155aa6b25085dc.js.map"
     ],
-    "component---src-pages-product-chain-index-js": [
-      "component---src-pages-product-chain-index-js-174a47d378408b3d3944.js",
-      "component---src-pages-product-chain-index-js-174a47d378408b3d3944.js.map"
-    ],
     "path---collection": [
       "path---collection-a0e39f21c11f6a62c5ab.js",
       "path---collection-a0e39f21c11f6a62c5ab.js.map"
@@ -57,8 +53,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-about-contact-js": [
-      "component---src-pages-about-contact-js-c3e183b227c2d37ad2b8.js",
-      "component---src-pages-about-contact-js-c3e183b227c2d37ad2b8.js.map"
+      "component---src-pages-about-contact-js-8f5b624286067239a3ff.js",
+      "component---src-pages-about-contact-js-8f5b624286067239a3ff.js.map"
     ],
     "path---collection-special": [
       "path---collection-special-a0e39f21c11f6a62c5ab.js",
@@ -73,32 +69,32 @@
       "path---product-earring-closeup-b-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-product-earring-index-js": [
-      "component---src-pages-product-earring-index-js-bba835c082f72e7f09af.js",
-      "component---src-pages-product-earring-index-js-bba835c082f72e7f09af.js.map"
+      "component---src-pages-product-earring-index-js-e991165f40ed0bff5b44.js",
+      "component---src-pages-product-earring-index-js-e991165f40ed0bff5b44.js.map"
     ],
     "component---src-pages-product-earring-closeup-b-js": [
       "component---src-pages-product-earring-closeup-b-js-10fb1e08766042d1840f.js",
       "component---src-pages-product-earring-closeup-b-js-10fb1e08766042d1840f.js.map"
     ],
     "component---src-pages-about-story-js": [
-      "component---src-pages-about-story-js-705d48c71220a7ee66ad.js",
-      "component---src-pages-about-story-js-705d48c71220a7ee66ad.js.map"
+      "component---src-pages-about-story-js-f1e5f3ed2ec69ddd0866.js",
+      "component---src-pages-about-story-js-f1e5f3ed2ec69ddd0866.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-4f1246053c6637c36b95.js",
       "component---src-layouts-index-js-4f1246053c6637c36b95.js.map"
     ],
     "component---src-pages-collection-index-js": [
-      "component---src-pages-collection-index-js-7aceadb8097434d1b006.js",
-      "component---src-pages-collection-index-js-7aceadb8097434d1b006.js.map"
+      "component---src-pages-collection-index-js-f5119b992f2aa58810b7.js",
+      "component---src-pages-collection-index-js-f5119b992f2aa58810b7.js.map"
     ],
     "component---src-pages-collection-frieda-js": [
       "component---src-pages-collection-frieda-js-58454c5b035f7e0201f8.js",
       "component---src-pages-collection-frieda-js-58454c5b035f7e0201f8.js.map"
     ],
     "component---src-pages-collection-elsa-js": [
-      "component---src-pages-collection-elsa-js-01c41903749d756cdb40.js",
-      "component---src-pages-collection-elsa-js-01c41903749d756cdb40.js.map"
+      "component---src-pages-collection-elsa-js-b42ce2f6804ca2378a6e.js",
+      "component---src-pages-collection-elsa-js-b42ce2f6804ca2378a6e.js.map"
     ],
     "path---collection-read-more": [
       "path---collection-read-more-a0e39f21c11f6a62c5ab.js",
@@ -113,16 +109,16 @@
       "path---about-toc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-a9be01615ae105ff4636.js",
-      "commons-a9be01615ae105ff4636.js.map"
+      "commons-9e9bf1ff341f28480f53.js",
+      "commons-9e9bf1ff341f28480f53.js.map"
     ],
     "component---src-pages-collection-read-more-js": [
       "component---src-pages-collection-read-more-js-8606b3eeb2c496c304bf.js",
       "component---src-pages-collection-read-more-js-8606b3eeb2c496c304bf.js.map"
     ],
     "component---src-pages-about-gemstones-js": [
-      "component---src-pages-about-gemstones-js-422c8d75a2a40f4dba5b.js",
-      "component---src-pages-about-gemstones-js-422c8d75a2a40f4dba5b.js.map"
+      "component---src-pages-about-gemstones-js-c9dff00b4a44449b7231.js",
+      "component---src-pages-about-gemstones-js-c9dff00b4a44449b7231.js.map"
     ],
     "component---src-pages-collection-limited-js": [
       "component---src-pages-collection-limited-js-eeb2ba7975327999015b.js",
@@ -153,22 +149,18 @@
       "path---about-contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-14ebb13b67d97529c770.js",
+      "app-cc59423007b2599adc16.js",
       "build-js-styles.css",
-      "app-14ebb13b67d97529c770.js.map",
+      "app-cc59423007b2599adc16.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---product-chain": [
-      "path---product-chain-a0e39f21c11f6a62c5ab.js",
-      "path---product-chain-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---about-gemstones-b": [
       "path---about-gemstones-b-a0e39f21c11f6a62c5ab.js",
       "path---about-gemstones-b-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-collection-special-js": [
-      "component---src-pages-collection-special-js-43f77761a17bdb36feb9.js",
-      "component---src-pages-collection-special-js-43f77761a17bdb36feb9.js.map"
+      "component---src-pages-collection-special-js-a8f452254561a65d3191.js",
+      "component---src-pages-collection-special-js-a8f452254561a65d3191.js.map"
     ]
   }
 }
