@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 const Footer = () => (
   <footer>
     <ul>
-      <li>CART (0)</li>
-      <li>DE / EN</li>
+      <li>Cart (0)</li>
+      <li>de/en</li>
     </ul>
   </footer>
 )

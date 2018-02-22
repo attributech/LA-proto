@@ -21,7 +21,7 @@ export default ({ image, hitAreaList, noHeader, noNav, noFooter, navCompact }) =
   {!noFooter && <HitArea
       key={0} 
       id={0} 
-      pos={[34.2, 1.1, 10, 1.8]} 
+      pos={[40.8, 1.9, 11.5, 1.5]} 
       url="/about/TOC"
       bottom
     />}

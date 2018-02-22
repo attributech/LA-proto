@@ -11,7 +11,7 @@ const Nav = () => (
         <Link to="/collection">collections</Link>
         <ul>
           <li><Link to="/collection">All Products</Link></li>
-          <li><Link to="/collection/frieda">Frieda</Link></li>
+          <li><Link to="/collection/elsa">Frieda</Link></li>
           <li><Link to="/collection/elsa">Elsa</Link></li>
           <li><Link to="/collection/limited">Limited</Link></li>
           <li><Link to="/collection/limited">Special</Link></li>

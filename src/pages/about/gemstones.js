@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '../../components/Page'
-import image from '../../images/about--gemstones-a.jpg'
+import image from '../../images/about--gemstones.jpg'
 
 const hitAreaList = [
   {
